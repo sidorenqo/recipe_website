@@ -1,0 +1,26 @@
+.widget {
+  .filter {
+    @apply flex justify-end items-center mx-6 mb-4 text-sm;
+    span {
+      @apply mr-2 text-right text-base font-bold leading-6;
+    }
+    select {
+      @apply border-2 border-solid py-2 px-4 w-[285px] h-[38px];
+    }
+    .selectDifficulty {
+      @apply flex;
+      button {
+        @apply flex items-center justify-center h-[40px] w-[72px] border border-solid py-2 px-4 text-sm;
+      }
+      .btnColored {
+        @apply bg-blue-500 text-white rounded-ss-sm border-none;
+      }
+      .btnLight {
+        @apply border-gray-100 text-gray-300;
+      }
+    }
+  }
+  .btnReset {
+    @apply ml-6 text-blue-200 text-sm;
+  }
+}

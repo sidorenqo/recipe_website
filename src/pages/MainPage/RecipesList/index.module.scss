@@ -1,0 +1,37 @@
+.cardsWrapper {
+  @apply flex flex-wrap;
+}
+
+.container {
+  @apply w-[1420px] h-[852px] bg-gray-100 relative;
+  .containerHeader {
+    @apply w-[1420px] h-[56px] bg-white flex items-center px-6 py-4 border-b;
+
+    h2 {
+      @apply font-medium leading-5 text-xl mr-3;
+    }
+    p {
+      @apply font-normal text-sm text-gray-400;
+    }
+  }
+}
+.pag {
+  @apply relative top-[-30px];
+}
+
+nav {
+  @apply flex content-center border-t border-solid mt-[1em] pt-[0.5em];
+
+  .pagination {
+    @apply flex list-none m-auto;
+    li {
+      @apply mx-[0,1px];
+    }
+    a {
+      @apply block py-[0.5em] px-[1em] border border-solid rounded-sm no-underline;
+    }
+    .visuallyHidden {
+      @apply border-0 h-auto m-0 overflow-hidden p-0 absolute w-[1px] whitespace-nowrap;
+    }
+  }
+}

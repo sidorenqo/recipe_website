@@ -1,0 +1,40 @@
+.cardWrapper {
+  @apply w-[452px] h-[354px] bg-white border border-solid rounded-sm m-3 flex;
+  .section {
+    @apply w-[226px];
+    .cardHeader {
+      @apply w-[226px] h-[50px] py-4 px-6 flex justify-center content-center  border-b;
+      h3 {
+        @apply font-medium text-base;
+      }
+    }
+    .cardImage {
+      @apply w-full;
+    }
+  }
+  .cardDescription {
+    @apply p-6 w-[226px] h-[284px];
+    p {
+      @apply text-[10px] font-normal text-gray-500 leading-3;
+    }
+  }
+  .cookingTime {
+    @apply flex mt-3 content-center;
+  }
+  span {
+    @apply ml-2 font-normal text-xs leading-5;
+  }
+  .cookingDifficulty {
+    @apply flex mt-3 content-center font-normal text-xs;
+    span {
+      @apply m-0 mr-1;
+    }
+  }
+  .countryKitchen {
+    @apply flex items-center mt-4 text-xs font-normal;
+  }
+
+  .typeFood {
+    @apply flex items-center mt-4 text-xs font-normal;
+  }
+}
