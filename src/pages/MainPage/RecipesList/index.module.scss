@@ -3,9 +3,9 @@
 }
 
 .container {
-  @apply w-[1420px] h-[852px] bg-gray-100 relative;
+  @apply w-[1450px] h-[852px] bg-gray-100 relative;
   .containerHeader {
-    @apply w-[1420px] h-[56px] bg-white flex items-center px-6 py-4 border-b;
+    @apply w-[1450px] h-[56px] bg-white flex items-center px-6 py-4 border-b;
 
     h2 {
       @apply font-medium leading-5 text-xl mr-3;
